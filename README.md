@@ -20,7 +20,7 @@ $ gem install character_recognition_by_vision_api
 #### 1. prepare the image file
 in this repository, I prepare [sample_image.png](spec/sample_image.png)
 
-![sample_image](sample_image.png "spec/sample_image.png")
+![spec/sample_image.png](sample_image.png "sample_image.png")
 
 #### 2. prepare api_key of Google Cloud Vision API
 - the official site of Google Cloud Vision API is here
