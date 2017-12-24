@@ -38,7 +38,7 @@ require 'character_recognition_by_vision_api'
 
 #### 4. exec method
 ```ruby
-CharacterRecognitionByVisionApi.(image_file, api_key)
+CharacterRecognitionByVisionApi.extract_to_text(image_file, api_key)
 ```
 
 #### 5. return the characters as text format
