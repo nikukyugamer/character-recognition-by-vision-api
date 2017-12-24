@@ -18,7 +18,7 @@ $ gem install character_recognition_by_vision_api
 # Usage
 
 #### 1. prepare the image file
-in this repository, I prepare [sample_image.png](spec/sample_image.png)
+- in this repository, I prepare [sample_image.png](spec/sample_image.png)
 
 ![sample_image.png](spec/sample_image.png "spec/sample_image.png")
 
