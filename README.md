@@ -48,7 +48,7 @@ CharacterRecognitionByVisionApi.(image_file, api_key)
 
 #### when the image file is below
 
-![spec/sample_image.png](sample_image.png "sample_image.png")
+![sample_image.png](spec/sample_image.png "spec/sample_image.png")
 
 #### the result is here
 
