@@ -60,7 +60,7 @@ H本語表示サンプJ 1 2 3 4 5 60
 ABCDE FGHIJKLMNOP
 ```
 
-- looks alomst good :)
+- looks almost good :)
 
 ## Development
 
