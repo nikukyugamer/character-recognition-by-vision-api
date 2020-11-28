@@ -1,0 +1,38 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.1.0
+  slack: circleci/slack@3.4.2
+jobs:
+  build:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      # https://circleci.com/developer/orbs/orb/circleci/node
+      # - restore_cache:
+      #     keys:
+      #       # when lock file changes, use increasingly general patterns to restore cache
+      #       - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      #       - yarn-packages-v1-{{ .Branch }}-
+      #       - yarn-packages-v1-
+      # - run: yarn install
+      # - save_cache:
+      #     paths:
+      #       - ~/.cache/yarn
+      #     key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      # Does the reason for using the node orb exist?
+      # - node/install-packages:
+          # cache-path: ~/project/node_modules
+          # override-ci-command: yarn install
+      # - run: yarn test
+      # - slack/notify:
+          # channel: channel_id
+          # color: '#42e2f4'
+          # mentions: 'foo,bar,'
+          # message: This is a custom message notification
+          # webhook: '${SLACK_WEBHOOK}'
+      - run: echo 'Hello, CircleCI World!'
+workflows:
+    build-and-test:
+      jobs:
+        - build
