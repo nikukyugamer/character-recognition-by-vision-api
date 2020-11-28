@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/corselia/character-recognition-by-vision-api/tree/master.svg?style=svg)](https://circleci.com/gh/corselia/character-recognition-by-vision-api/tree/master)
+<!-- [![CircleCI](https://circleci.com/gh/corselia/character-recognition-by-vision-api/tree/master.svg?style=svg)](https://circleci.com/gh/corselia/character-recognition-by-vision-api/tree/master) -->
 
 # Overview
 - you get the characters as text format from the image file with characters
